@@ -1,0 +1,12 @@
+#!name = 小紅書 & rednote 分流
+#!desc = 強制小紅書與 rednote 核心介面、CDN 及風控域名走指定代理
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/XiaoHongShu.png
+
+[Rule]
+DOMAIN-SUFFIX,xiaohongshu.com,Proxy
+DOMAIN-SUFFIX,xhscdn.com,Proxy
+DOMAIN-SUFFIX,xhscdn.net,Proxy
+DOMAIN-SUFFIX,rednote.com,Proxy
+DOMAIN-SUFFIX,fengkongcloud.com,Proxy
+USER-AGENT,discover*,Proxy
+USER-AGENT,rednote*,Proxy
